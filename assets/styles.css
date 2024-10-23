@@ -19,7 +19,7 @@
   background-color: lightpink;
 }
 
-/*.nav-button {
+.nav-button {
   background-color: #cccccc;
   color: #1a1a1a;
   text-decoration: none;
@@ -33,7 +33,7 @@
 
 .nav-button:hover {
   background-color: #ff85c4;
-}*/
+}
 
 #video-container {
   position: relative;
@@ -191,37 +191,6 @@ a.back-button:hover {
 
 img {
   margin-top: 20px;
-}
-
-.futuristic-button {
-  background-color: #e94560;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.futuristic-button:hover {
-  background-color: #d83a50;
-  transform: scale(1.05);
-}
-
-.nav-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 15px;
-  background-color: #16213e;
-  color: #e94560;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.nav-button:hover {
-  background-color: #1a1a2e;
 }
 
 @media (max-width: 768px) {
